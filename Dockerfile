@@ -1,6 +1,7 @@
 FROM alpine:edge
 MAINTAINER Slavik Svyrydiuk "svyrydiuk@gmail.com"
 
+
 ENV PHANTOMJS_VERSION=phantomjs-2.1.1-alpine-linux-x86_64
 
 COPY $PHANTOMJS_VERSION.tar.bz2 /
