@@ -10,7 +10,13 @@ with pre-built PhantomJS binary package.
     docker build -t alpine-phantomjs .
 ```
 
+or 
+
+```
+	make build
+```
+
 
 ## PhantomJS
 
-PhantomJS binary package was built with  https://github.com/Overbryd/docker-phantomjs-alpine
+Current Dockerfile uses PhantomJS binary package from [Fabio Rehm's docker-phantomjs2](https://github.com/fgrehm/docker-phantomjs2) repository.
